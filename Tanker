@@ -1,0 +1,47 @@
+
+__--Connectors--__
+
+I have now decided to use som panelmounted RJ45 connectors for the temperature sensors.
+This is because it's the stirdiest connector/price combination i have found yet.
+
+
+--mControllers--
+I'm using several (three so far) Arduinos as controllers. I use several because it's hard to keep control over all the pins
+if i use only one, really not shure if there is enough pins on one arduino to handle my project anyways.
+
+The Arduinos has to talk to eachother since the values from sensors and such has to be shared between several arduinos.
+
+--Opticals--
+There are several values that need to be displayed in my project:
+*temp at Coloumn product outtake
+*temp at Coloumn middle
+*temp at Boiler
+*temp at Water cooling outlet
+mabee a timer, so i can reliably se how mutch time has passed.
+Timer for equlibrium, (starts at 78'C, and counts town 45mins) really nice to have, so i can monitor the progress.
+
+Warning diodes for:
+Hi temp cooling RED
+Hi/low temp product outtake RED/YELLOW
+
+Status diodes for:
+self check RED/GREEN
+
+--Sensors--
+So far i need 4 Temperature-sensors, these will be placed:
+*Coloumn product outtake
+*Coloumn middle
+*Boiler
+*Water cooling outlet
+
+Sensors to be added later:
+Temp sensor at the top of the coloumn, as a safety measure.
+Flow sensor on cooling water, to work out how mutch water i use.
+Fluid sensor in product collector, to work out 4shots and tails
+
+--Others--
+Mount a serious warning buzzer, this need to be LOUD! and will activate is coloumn top 
+or water cooling temp gets to high.
+Motor for opening/closeing the product outtake
+Servo for switching product collectors
+A small buzzer for information pruposes, middle coloumn starts go heat up and such
