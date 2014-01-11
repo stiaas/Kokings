@@ -1,0 +1,10 @@
+Splice between Cat5 cable and Temperature sensors ar as follows:
+
+
+Cat5.   |   Temp.
+------------------
+HO/O    |   Red
+HB/B    |   Black
+HG/G    |   Green
+
+The brown pair is cut away.
